@@ -10,7 +10,7 @@
     "server": "yarn workspace api",
     "api": "yarn workspace api",
     "build": "yarn workspaces run build",
-    "start": "cd api && node dist/index.js",
+    "start": "react-scripts --openssl-legacy-provider start"
     "docs": "USE_SSH=true cd docs && yarn deploy"
   },
   "workspaces": [
